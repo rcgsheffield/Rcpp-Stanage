@@ -27,7 +27,7 @@ install.packages(c("Rcpp", "RcppParallel"))
 
 # Usage
 
-Execute the HPC job
+Execute the HPC job using the SLURM batch job submission command [`sbatch`](https://slurm.schedmd.com/sbatch.html)
 
 ```bash
 sbatch job.sh

@@ -1,4 +1,8 @@
 #!/bin/bash
+#SBATCH --job-name="R C++ parallel example"
+#SBATCH --cpus-per-task=2
+#SBATCH --time=00:00:10
+#SBATCH --mem=512M
 set -e
 
 # This is a HPC job script.
