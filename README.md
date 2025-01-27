@@ -7,7 +7,30 @@ Rcpp test for [Stanage](https://docs.hpc.shef.ac.uk/en/latest/stanage/index.html
 
 # Installation
 
+Load the R module
 
+```bash
+module load R
+```
+
+Open the R shell
+
+```bash
+R
+```
+
+Install dependencies. When asked to create a personal package library, select "yes"
+
+```R
+install.packages(c("Rcpp", "RcppParallel"))
+```
 
 # Usage
 
+Execute the HPC job
+
+```bash
+sbatch job.sh
+```
+
+Log files will be written to `*.out` files.
